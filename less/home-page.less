@@ -1,0 +1,117 @@
+.container {
+  
+  header {
+    background-image: url("https://personal-trainer-stgallen.ch/wp-content/uploads/2013/08/CRT53091.jpg");
+
+    min-height: 50rem;
+
+    .community-spirit {
+      .community();
+
+      margin-top: 5rem;
+
+      p {
+        .h1(3.2rem);
+      }
+
+      h1 {
+        .h1(6.8rem);
+      }
+
+      .groupFitness {
+        .button();
+
+
+      }
+
+      @media @mobile {
+
+        h1 {
+          color    : @white;
+          font-size: 3rem;
+        }
+
+        p {
+         
+          font-size: 2rem;
+          color : @white;
+        }
+
+      }
+
+    }
+  }
+
+
+  .anywhere-fitness {
+    .community();
+
+    h1 {
+      .h1();
+    }
+
+    h2 {
+      .h2();
+    }
+
+    @media @mobile {
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+
+      }
+    }
+  }
+
+  .middle-section {
+    .middleSection(center, 30rem);
+
+    .af-team {
+      margin-right   : 7rem;
+      justify-content: center;
+      cursor         : pointer;
+
+      color: @blue-color;
+
+
+
+      .team {
+        h1 {
+          a {
+
+
+            text-decoration: none;
+            color          : @lessRedcolor;
+          }
+        }
+
+        @media @mobile {
+          margin-bottom: 4rem;
+        }
+      }
+
+      h1 {
+        font-size  : 9rem;
+        text-align : center;
+        font-weight: 700;
+        width      : 300px;
+        line-height: 10rem;
+
+        @media @mobile {
+          font-size: 7rem;
+        }
+      }
+
+    }
+
+    @media @mobile {
+      display       : flex;
+      flex-direction: column;
+      align-items   : center;
+    }
+
+  }
+}
