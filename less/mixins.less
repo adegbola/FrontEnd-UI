@@ -6,7 +6,7 @@
     color          : @color;
     margin-top     : @marginTop;
     margin-bottom  : @marginBottom;
-    font-weight: 600;
+    font-weight    : 600;
 }
 
 .footerAnchor(@marginTop, @marginBottom, @color, @fontSize) {
@@ -43,11 +43,11 @@
 }
 
 .h1(@p) {
-    font-weight: 500;
-    font-size: @p;
+    font-weight   : 500;
+    font-size     : @p;
     letter-spacing: 1px;
-    margin: 20px auto;
-    line-height: .9em;
+    margin        : 20px auto;
+    line-height   : .9em;
 }
 
 .h1() {
@@ -56,11 +56,11 @@
 }
 
 .h1(@font-size) {
-    font-size  : @font-size;
-    font-weight: @font-weight;
-    color      : #D7CF6E;
+    font-size     : @font-size;
+    font-weight   : @font-weight;
+    color         : #D7CF6E;
     letter-spacing: 0.0588235rem;
-    line-height: 0.5em;
+    line-height   : 0.5em;
 
 }
 
@@ -87,4 +87,20 @@
 
 .marginBottom(@marginBottom) {
     margin-bottom: @marginBottom;
+}
+
+.schedule() {
+    display          : flex;
+    flex-direction   : column;
+    background-size  : contain;
+    background-repeat: no-repeat;
+    min-height       : 20rem;
+    width            : 500px;
+}
+
+
+.sdisplay(@direction) {
+    display       : flex;
+    flex-direction: @direction;
+    flex-wrap     : wrap;
 }

@@ -7,22 +7,25 @@ footer {
     text-align      : center;
   }
 
-  p{
+  p {
     margin-top: @margin-top;
-    color: @white;
+    color     : @white;
   }
-@media @mobile{
-  nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    a{
-      margin-top: 2rem;
+
+  @media @mobile,
+  @tablet {
+    nav {
+      display       : flex;
+      flex-direction: column;
+      align-items   : center;
+
+      a {
+        margin-top: 2rem;
+      }
     }
   }
-}
 
 
 
-  
+
 }

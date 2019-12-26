@@ -164,7 +164,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-@media (max-width:500px) {
+@media (max-width:600px) {
   body {
     background-color: #FFFFFF;
   }
@@ -212,120 +212,49 @@ footer .phone a {
   color: #FFFFFF;
   font-size: 2rem;
 }
+body {
+  background-color: #FFFFFF;
+}
 .container header {
-  background-image: url("https://personal-trainer-stgallen.ch/wp-content/uploads/2013/08/CRT53091.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfFj-gZGUdP9s5DElddV14JduTQyYA9tXoE-iV9wXKSC0rE3C&s");
+  background-position: center;
+  background-size: cover;
   min-height: 50rem;
 }
-.container header .community-spirit {
-  text-align: center;
-  margin-top: 5rem;
+.container header nav a {
+  color: #FFFFFF;
 }
-.container header .community-spirit p {
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin: 20px auto;
-  line-height: 0.9em;
-  font-size: 3.2rem;
-  font-weight: 700;
-  color: #D7CF6E;
-  letter-spacing: 0.0588235rem;
-  line-height: 0.5em;
-}
-.container header .community-spirit h1 {
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin: 20px auto;
-  line-height: 0.9em;
-  font-size: 6.8rem;
-  font-weight: 700;
-  color: #D7CF6E;
-  letter-spacing: 0.0588235rem;
-  line-height: 0.5em;
-}
-.container header .community-spirit .groupFitness {
-  border-radius: 300px;
-  font-weight: 700;
-  font-size: 2rem;
-  background-color: #FFFFFF;
-  color: #3f77a2;
-  padding: 1.2rem;
-  text-transform: uppercase;
-  margin-right: 1.2rem;
-  margin-top: 3rem;
-  border: none;
-  cursor: pointer;
-}
-@media (max-width:500px), (max-width:800px) {
-  .container header .community-spirit h1 {
-    color: #FFFFFF;
-    font-size: 3rem;
-  }
-  .container header .community-spirit p {
-    font-size: 2rem;
-    color: #FFFFFF;
-  }
-}
-.container .anywhere-fitness {
-  text-align: center;
-  margin-top: 5rem;
-}
-.container .anywhere-fitness h1 {
-  font-weight: 700;
-  color: #144b6a;
-}
-.container .anywhere-fitness h2 {
-  margin-top: 2rem;
-  color: #4a4a4a;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-@media (max-width:500px) {
-  .container .anywhere-fitness h1 {
-    font-size: 3rem;
-  }
-  .container .anywhere-fitness h2 {
-    font-size: 2.5rem;
-  }
-}
-.container .middle-section {
-  display: flex;
-  justify-content: center;
-  font-size: 30rem;
-  margin-top: 2rem;
-}
-.container .middle-section .af-team {
-  margin-right: 7rem;
-  justify-content: center;
-  cursor: pointer;
-  color: #144b6a;
-}
-.container .middle-section .af-team .team h1 a {
-  text-decoration: none;
-  color: #8f4a4a;
-}
-@media (max-width:500px), (max-width:800px) {
-  .container .middle-section .af-team .team {
-    margin-bottom: 4rem;
-  }
-}
-.container .middle-section .af-team h1 {
-  font-size: 9rem;
-  text-align: center;
-  font-weight: 700;
-  width: 300px;
-  line-height: 10rem;
-}
-@media (max-width:500px), (max-width:800px) {
-  .container .middle-section .af-team h1 {
-    font-size: 7rem;
-  }
-}
-@media (max-width:500px), (max-width:800px) {
-  .container .middle-section {
+@media (max-width:600px) {
+  .container header {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+    width: 500px;
   }
+  .container header nav a {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+}
+.container .responsive-iframe-container {
+  margin-top: 1rem;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.container .responsive-iframe-container iframe,
+.container .vresponsive-iframe-container object,
+.container .vresponsive-iframe-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 footer {
   margin-top: 18rem;
@@ -339,7 +268,7 @@ footer p {
   margin-top: 2rem;
   color: #FFFFFF;
 }
-@media (max-width:500px), (max-width:800px) {
+@media (max-width:600px), (max-width:800px) {
   footer nav {
     display: flex;
     flex-direction: column;

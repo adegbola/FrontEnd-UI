@@ -1,0 +1,31 @@
+.container header {
+  background-image: url("https://ppymca.org/images/default-source/ppymca/programs/adult-and-family/personal-training/ymca_personal-training.png?sfvrsn=a64a96a1_2");
+  background-position: center;
+  background-size: cover;
+  min-height: 55rem;
+}
+@media (max-width: 500px) {
+  .container header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+    width: 500px;
+  }
+}
+.container .calender {
+  margin-top: 2rem;
+}
+@media (max-width: 500px) {
+  .container .calender {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+  .container .calender .context {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+}

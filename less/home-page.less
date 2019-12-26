@@ -1,7 +1,8 @@
 .container {
-  
+
   header {
     background-image: url("https://personal-trainer-stgallen.ch/wp-content/uploads/2013/08/CRT53091.jpg");
+
 
     min-height: 50rem;
 
@@ -24,7 +25,9 @@
 
       }
 
-      @media @mobile {
+
+      @media @mobile,
+      @tablet {
 
         h1 {
           color    : @white;
@@ -32,12 +35,14 @@
         }
 
         p {
-         
+
           font-size: 2rem;
-          color : @white;
+          color    : @white;
         }
 
       }
+
+
 
     }
   }
@@ -88,7 +93,8 @@
           }
         }
 
-        @media @mobile {
+        @media @mobile,
+        @tablet {
           margin-bottom: 4rem;
         }
       }
@@ -100,14 +106,16 @@
         width      : 300px;
         line-height: 10rem;
 
-        @media @mobile {
+        @media @mobile,
+        @tablet {
           font-size: 7rem;
         }
       }
 
     }
 
-    @media @mobile {
+    @media @mobile,
+    @tablet {
       display       : flex;
       flex-direction: column;
       align-items   : center;
