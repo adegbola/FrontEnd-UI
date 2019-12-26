@@ -164,6 +164,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+body {
+  background-color: #EDEDE7;
+}
 @media (max-width:500px) {
   body {
     background-color: #FFFFFF;
@@ -213,118 +216,17 @@ footer .phone a {
   font-size: 2rem;
 }
 .container header {
-  background-image: url("https://personal-trainer-stgallen.ch/wp-content/uploads/2013/08/CRT53091.jpg");
-  min-height: 50rem;
+  background-image: url("https://ppymca.org/images/default-source/ppymca/programs/adult-and-family/personal-training/ymca_personal-training.png?sfvrsn=a64a96a1_2");
+  background-position: center;
+  background-size: cover;
+  min-height: 55rem;
 }
-.container header .community-spirit {
-  text-align: center;
-  margin-top: 5rem;
-}
-.container header .community-spirit p {
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin: 20px auto;
-  line-height: 0.9em;
-  font-size: 3.2rem;
-  font-weight: 700;
-  color: #D7CF6E;
-  letter-spacing: 0.0588235rem;
-  line-height: 0.5em;
-}
-.container header .community-spirit h1 {
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin: 20px auto;
-  line-height: 0.9em;
-  font-size: 6.8rem;
-  font-weight: 700;
-  color: #D7CF6E;
-  letter-spacing: 0.0588235rem;
-  line-height: 0.5em;
-}
-.container header .community-spirit .groupFitness {
-  border-radius: 300px;
-  font-weight: 700;
-  font-size: 2rem;
-  background-color: #FFFFFF;
-  color: #3f77a2;
-  padding: 1.2rem;
-  text-transform: uppercase;
-  margin-right: 1.2rem;
-  margin-top: 3rem;
-  border: none;
-  cursor: pointer;
-}
-@media (max-width:500px), (max-width:800px) {
-  .container header .community-spirit h1 {
-    color: #FFFFFF;
-    font-size: 3rem;
-  }
-  .container header .community-spirit p {
-    font-size: 2rem;
-    color: #FFFFFF;
-  }
-}
-.container .anywhere-fitness {
-  text-align: center;
-  margin-top: 5rem;
-}
-.container .anywhere-fitness h1 {
-  font-weight: 700;
-  color: #144b6a;
-}
-.container .anywhere-fitness h2 {
+.container .calender {
   margin-top: 2rem;
-  color: #4a4a4a;
-  font-weight: 400;
-  text-transform: uppercase;
 }
 @media (max-width:500px) {
-  .container .anywhere-fitness h1 {
-    font-size: 3rem;
-  }
-  .container .anywhere-fitness h2 {
-    font-size: 2.5rem;
-  }
-}
-.container .middle-section {
-  display: flex;
-  justify-content: center;
-  font-size: 30rem;
-  margin-top: 2rem;
-}
-.container .middle-section .af-team {
-  margin-right: 7rem;
-  justify-content: center;
-  cursor: pointer;
-  color: #144b6a;
-}
-.container .middle-section .af-team .team h1 a {
-  text-decoration: none;
-  color: #8f4a4a;
-}
-@media (max-width:500px), (max-width:800px) {
-  .container .middle-section .af-team .team {
-    margin-bottom: 4rem;
-  }
-}
-.container .middle-section .af-team h1 {
-  font-size: 9rem;
-  text-align: center;
-  font-weight: 700;
-  width: 300px;
-  line-height: 10rem;
-}
-@media (max-width:500px), (max-width:800px) {
-  .container .middle-section .af-team h1 {
-    font-size: 7rem;
-  }
-}
-@media (max-width:500px), (max-width:800px) {
-  .container .middle-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .container {
+    width: 500px;
   }
 }
 footer {
@@ -339,7 +241,7 @@ footer p {
   margin-top: 2rem;
   color: #FFFFFF;
 }
-@media (max-width:500px), (max-width:800px) {
+@media (max-width:500px) {
   footer nav {
     display: flex;
     flex-direction: column;

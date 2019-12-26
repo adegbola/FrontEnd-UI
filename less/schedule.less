@@ -1,0 +1,71 @@
+body {
+    background-color: @white;
+}
+
+.container {
+
+
+    header {
+        background-image   : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfFj-gZGUdP9s5DElddV14JduTQyYA9tXoE-iV9wXKSC0rE3C&s");
+        background-position: center;
+        background-size    : cover;
+
+        min-height: 50rem;
+
+        nav {
+            a {
+
+                color: @white;
+            }
+        }
+
+        @media @mobile {
+            display          : flex;
+            flex-direction   : column;
+            background-size  : contain;
+            background-repeat: no-repeat;
+            min-height       : 20rem;
+            width            : 500px;
+
+            nav {
+                a {
+
+                    color      : @white;
+                    font-weight: 400;
+                    font-size  : 1.7rem;
+
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .responsive-iframe-container {
+        margin-top: 1rem;
+
+        position      : relative;
+        padding-bottom: 56.25%;
+        padding-top   : 30px;
+        height        : 0;
+        overflow      : hidden;
+    }
+
+    .responsive-iframe-container iframe,
+    .vresponsive-iframe-container object,
+    .vresponsive-iframe-container embed {
+        position: absolute;
+        top     : 0;
+        left    : 0;
+        width   : 100%;
+        height  : 100%;
+    }
+
+
+
+
+
+
+}
