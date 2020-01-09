@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto Mono', monospace, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oxygen', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width:600px) {
+  body {
+    background-color: #FFFFFF;
+  }
+}
+@media (max-width:800px) {
+  .container {
+    width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.container header nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+.container header nav a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #B43966;
+  margin-top: 3.2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.container header nav .subMenu {
+  display: none;
+}
+footer {
+  text-align: center;
+  background-color: #1F1F1F;
+}
+footer nav {
+  font-size: 2rem;
+  text-decoration: none;
+  margin: 5rem;
+}
+footer nav a {
+  color: #FFFFFF;
+  margin-right: 4rem;
+  text-decoration: none;
+}
+footer .phone a {
+  margin-top: 13rem;
+  margin-bottom: 13rem;
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+footer .frame {
+  display: flex;
+  flex-direction: row;
+}
+footer {
+  margin-top: 18rem;
+}
+footer .icons {
+  background-color: #3F77A2;
+  padding: 2rem;
+  text-align: center;
+}
+footer p {
+  margin-top: 2rem;
+  color: #FFFFFF;
+}
+@media (max-width:600px), (max-width:800px) {
+  footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer nav a {
+    margin-top: 2rem;
+  }
+}
